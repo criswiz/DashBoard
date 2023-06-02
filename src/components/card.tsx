@@ -5,8 +5,8 @@ interface CardDetails {
 
 const card =  ({ description, link }: CardDetails)  =>{
   return (
-    <div className="flex flex-col gap-4 w-full">
-        <a href="#" className="block rounded-lg p-4 shadow-sm shadow-indigo-100">
+    <div className="flex flex-col gap-2 w-full h-2">
+        <a href="#" className="block rounded-lg p-4 shadow-md shadow-blue-200">
         <iframe src={link} className="h-56 w-full rounded-md object-cover"></iframe>
 
         <div className="mt-2">
