@@ -5,11 +5,11 @@ import Header from '../components/header'
 const homepage = () => {
   return (
     <div className='flex h-screen rounded-md w-full' >
-        <div className="w-1/6 border-r-2 border-blue-200">
+        <div className="w-1/6 border-r-2 border-black">
             <Sidebar/>
         </div>
         <div className="flex flex-col w-full">
-          <div className='w-full border-b-2 border-blue-200'>
+          <div className='w-full border-b-2 border-black'>
                 <Header/>
           </div>
           <div className="flex-auto grid grid-cols-3 w-5/6 mx-auto my-12 p-12 gap-x-12">
